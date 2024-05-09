@@ -1,5 +1,6 @@
 # imported python currency conversion library
 from forex_python.converter import CurrencyRates
+# imports the CLASS 'CurrencyRates' from the 'forex_python.convertor' module to provide currency conversion operation functionalities
 
 # function to perform currency conversion
 def convertCurrency(amount, fromCurrency, toCurrency):
