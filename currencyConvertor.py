@@ -11,3 +11,14 @@ def convertCurrency(amount, fromCurrency, toCurrency):
 convertedAmount = convertCurrency(100, 'USD', 'EUR')
 print(convertedAmount)
 
+# user interaction
+def main():
+    amount = float(input("Enter amount: "))
+    fromCurrency = input("From currency: ").upper()
+    toCurrency = input("To currency: ").upper()
+
+    convertedAmount = convertCurrency(amount, fromCurrency, toCurrency)
+    print(f"{amount} {fromCurrency} is equal to {convertedAmount: .2f} {toCurrency}")
+
+if __name__ == "__main__":
+    main()
