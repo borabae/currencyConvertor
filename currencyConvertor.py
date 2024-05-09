@@ -1,5 +1,5 @@
 # imported python currency conversion library
-from forex_python.convertor import CurrencyRates
+from forex_python.converter import CurrencyRates
 
 # function to perform currency conversion
 def convertCurrency(amount, fromCurrency, toCurrency):
